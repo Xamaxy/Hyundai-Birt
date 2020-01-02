@@ -1,0 +1,79 @@
+.container {
+  max-width: $website-width;
+  margin: auto;
+  padding: 0 1.5rem;
+  overflow: auto;
+}
+
+.bottom-line {
+  height: 3px;
+  width: 5rem;
+  background: $main-color;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.bottom-line-full {
+  height: 5px;
+  width: 100%;
+  background: $main-color;
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 3rem;  
+}
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase; 
+}
+
+span {
+  font-weight: bold;
+}
+
+.bg-main {
+  background: $main-color;
+}
+
+.bg-dark {
+  background: $dark-color;
+}
+
+.bg-light {
+  background: $light-color;
+}
+
+.bg-medium {
+  background: $medium-color;
+}
+
+.card {
+  background: #fff;
+  padding: 2rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.7);
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 5rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background: $main-color;  
+  color: #fff;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

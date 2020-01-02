@@ -1,0 +1,14 @@
+{
+  "name": "hyundai-birt",
+  "version": "1.0.0",
+  "description": "Hyundai Birt",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
