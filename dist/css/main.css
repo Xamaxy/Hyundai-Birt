@@ -49,7 +49,7 @@ span {
 .card {
   background: #fff;
   padding: 2rem;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.7); }
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3); }
 
 .btn {
   display: inline-block;
@@ -261,7 +261,7 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr); } }
 
-@media (max-width: 666px) {
+@media (max-width: 768px) {
   .nav {
     display: block;
     height: 12.5rem;
